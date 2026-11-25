@@ -1,0 +1,68 @@
+{
+  "format": 1,
+  "title": {
+    "en": "Word translate",
+    "zh": "划词翻译"
+  },
+  "description": {
+    "en": "Translate English words in the DSH conversation from the right-click menu.",
+    "zh": "在 DSH 对话里右击英文单词即可翻译成中文。"
+  },
+  "metadata": {
+    "categories": {
+      "productivity": {
+        "title": {
+          "en": "Productivity",
+          "zh": "效率"
+        }
+      }
+    }
+  },
+  "plugins": [
+    {
+      "name": "dsh-word-translate",
+      "title": {
+        "en": "Word translate",
+        "zh": "划词翻译"
+      },
+      "description": {
+        "en": "Select or point at any English word in a message, right-click, and a card shows its Chinese meaning in place; copy the result when you need it. Input boxes keep their native menu, and no API key is required.",
+        "zh": "在对话正文里选中或指向任意英文单词，右击弹出「翻译成中文」卡片，中文释义直接显示，可复制译文；输入框保持原生右击菜单，无需 API Key。"
+      },
+      "icon": "icons/word-translate.svg",
+      "metadata": {
+        "category": "productivity",
+        "keywords": [
+          "dsh",
+          "dsh-plugin",
+          "translate",
+          "translation",
+          "chinese",
+          "context-menu"
+        ]
+      },
+      "dist-tags": {
+        "latest": "0.1.0"
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1795588776,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/julypjyt-creator/dsh-word-translate",
+            "commit": "9a2825cd22370865545055945889b11a7d996a41"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.3 <0.3.0"
+          }
+        }
+      ],
+      "author": "Jiang Yu",
+      "homepage": "https://github.com/julypjyt-creator/dsh-word-translate#readme",
+      "repository": {
+        "url": "https://github.com/julypjyt-creator/dsh-word-translate"
+      }
+    }
+  ]
+}
