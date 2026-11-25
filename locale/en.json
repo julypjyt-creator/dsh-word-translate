@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Word translate",
-    "description": "Select or point at any English word in a message, right-click, and a card shows its Chinese meaning in place; copy the result when you need it. Input boxes keep their native menu, and no API key is required.",
+    "description": "Select or point at any English word in a message and right-click: a card shows its Chinese meaning in place, with copy and retry. No API key, no model tokens, and inputs keep their native menu.",
     "detail": "docs/DETAIL.md"
   }
 }

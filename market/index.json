@@ -26,8 +26,8 @@
         "zh": "划词翻译"
       },
       "description": {
-        "en": "Select or point at any English word in a message, right-click, and a card shows its Chinese meaning in place; copy the result when you need it. Input boxes keep their native menu, and no API key is required.",
-        "zh": "在对话正文里选中或指向任意英文单词，右击弹出「翻译成中文」卡片，中文释义直接显示，可复制译文；输入框保持原生右击菜单，无需 API Key。"
+        "en": "Select or point at any English word in a message and right-click: a card shows its Chinese meaning in place, with copy and retry. No API key, no model tokens, and inputs keep their native menu.",
+        "zh": "在对话里选中或指向任意英文单词，右击弹出「翻译成中文」卡片：释义就地显示，可复制、可重试；不需要 API Key，也不消耗模型 token；输入框保持原生右键菜单。"
       },
       "icon": "icons/word-translate.svg",
       "metadata": {
