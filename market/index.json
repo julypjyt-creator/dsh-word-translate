@@ -47,11 +47,9 @@
       "versions": [
         {
           "version": "0.1.0",
-          "publishTimestamp": 1795588776,
+          "publishTimestamp": 1795590517,
           "source": {
-            "type": "git",
-            "url": "https://github.com/julypjyt-creator/dsh-word-translate",
-            "commit": "9a2825cd22370865545055945889b11a7d996a41"
+            "type": "npm"
           },
           "engines": {
             "dsh": ">=0.2.2-rc.3 <0.3.0"
