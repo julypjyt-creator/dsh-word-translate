@@ -1,0 +1,3 @@
+- insert:
+    - id: word-translate
+      name: 'dsh-word-translate'

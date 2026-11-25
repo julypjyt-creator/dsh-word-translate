@@ -1,0 +1,50 @@
+{
+  "name": "dsh-word-translate",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Right-click any English word in the DSH conversation to translate it into Chinese",
+  "license": "MIT",
+  "author": "Jiang Yu <julypjyt@gmail.com>",
+  "homepage": "https://github.com/julypjyt-creator/dsh-word-translate#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julypjyt-creator/dsh-word-translate.git"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "translate",
+    "translation",
+    "chinese",
+    "context-menu"
+  ],
+  "engines": {
+    "dsh": ">=0.2.2-rc.3 <0.3.0"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "docs",
+    "icon.svg"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-connection"
+      ]
+    }
+  }
+}
