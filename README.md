@@ -14,6 +14,16 @@ dsh plugin add dsh-word-translate
 
 Or from the Plugins page: **Discover** → search `dsh-word-translate` → Install. The bundle affects the whole profile and stays installed across restarts.
 
+## Market source
+
+To list this plugin in the market (with its icon and localized description), add this index URL under Plugins → Discover → sources:
+
+```
+https://cdn.jsdelivr.net/gh/julypjyt-creator/dsh-word-translate@main/market/index.json
+```
+
+`raw.githubusercontent.com` is frequently unreachable on mainland networks and DSH fails the index fetch after a 10 second timeout, so the metadata is served through the jsDelivr mirror; the icon path is relative and resolves through the same mirror. jsDelivr caches branch content, so edits to `market/index.json` can take a few minutes to show up.
+
 ## Use
 
 1. Select an English word in any message, or just point at it — the plugin also picks up the word under the pointer when nothing is selected.

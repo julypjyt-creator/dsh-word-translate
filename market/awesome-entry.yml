@@ -1,0 +1,8 @@
+url: https://github.com/julypjyt-creator/dsh-word-translate
+name: julypjyt-creator/dsh-word-translate
+category: ui
+description:
+  en: Right-click an English word in a chat message to see its Chinese meaning in place, with no API key.
+  zh: 在对话正文里右键英文单词，就地显示中文释义，无需 API Key。
+# icon 必须是 GitHub 托管的位图（PNG），icon.svg 不符合；做成 180x180 PNG 后取消注释
+# icon: https://raw.githubusercontent.com/julypjyt-creator/dsh-word-translate/main/assets/icon-180.png

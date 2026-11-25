@@ -14,6 +14,16 @@ dsh plugin add dsh-word-translate
 
 也可以在插件页的 **Discover** 里搜索 `dsh-word-translate` 后安装。插件作用于整个 profile，重启后依然保留。
 
+## 市场来源
+
+想让市场列出这个插件（带图标和中文简介），在「插件 → 发现 → 索引源」里添加：
+
+```
+https://cdn.jsdelivr.net/gh/julypjyt-creator/dsh-word-translate@main/market/index.json
+```
+
+`raw.githubusercontent.com` 在国内网络经常连不上，DSH 拉索引超过 10 秒就会报 `Connect Timeout Error`，所以这里用 jsDelivr 镜像；索引里的图标是相对路径，同样走这个镜像。jsDelivr 对分支内容有缓存，改完 `market/index.json` 后可能几分钟才生效。
+
 ## 使用
 
 1. 在任意消息里选中一个英文单词；不选中也可以，鼠标停在单词上就行。
