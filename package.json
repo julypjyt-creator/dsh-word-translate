@@ -2,7 +2,7 @@
   "name": "dsh-word-translate",
   "version": "0.1.0",
   "type": "module",
-  "description": "Right-click any English word in the DSH conversation to translate it into Chinese",
+  "description": "在 DSH 对话里选中或指向任意英文单词，右击弹出「翻译成中文」卡片，中文释义就地显示，不用复制出去查。",
   "license": "MIT",
   "author": "Jiang Yu <julypjyt@gmail.com>",
   "homepage": "https://github.com/julypjyt-creator/dsh-word-translate#readme",
